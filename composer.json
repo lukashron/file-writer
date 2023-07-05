@@ -1,0 +1,39 @@
+{
+    "name": "lukashron/file-writer",
+    "description": "Simple wrapper for write to file.",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Lukas Hron",
+            "email": "info@lukashron.cz",
+            "homepage": "https://www.lukashron.cz",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php file writer",
+        "file writer",
+        "file manager"
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LukasHron\\FileWriter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LukasHron\\FileWriter\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "rector/rector": "^0.12.23"
+    }
+}

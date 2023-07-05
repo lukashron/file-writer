@@ -1,0 +1,8 @@
+# PhpStorm
+/.idea/
+
+# Dependies
+/vendor/
+
+# PhpUnit
+/.phpunit.result.cache
